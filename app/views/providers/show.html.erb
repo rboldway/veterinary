@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @provider.name %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @provider.address %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @provider.city %>
+</p>
+
+<p>
+  <strong>State:</strong>
+  <%= @provider.state %>
+</p>
+
+<p>
+  <strong>Zip:</strong>
+  <%= @provider.zip %>
+</p>
+
+<p>
+  <strong>Certificator:</strong>
+  <%= @provider.certificator %>
+</p>
+
+<p>
+  <strong>Years practiced:</strong>
+  <%= @provider.years_practiced %>
+</p>
+
+<%= link_to 'Edit', edit_provider_path(@provider) %> |
+<%= link_to 'Back', providers_path %>
