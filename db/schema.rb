@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 20160128193501) do
     t.string   "name"
     t.string   "pet_type"
     t.string   "breed"
-    t.date     "birthday"
+    t.date     "birthdate"
     t.string   "weight"
     t.date     "last_visit_date"
     t.datetime "created_at",      null: false

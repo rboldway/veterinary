@@ -4,7 +4,7 @@ class CreatePets < ActiveRecord::Migration
       t.string :name
       t.string :pet_type
       t.string :breed
-      t.date :birthday
+      t.date :birthdate
       t.string :weight
       t.date  :last_visit_date
 

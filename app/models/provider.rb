@@ -7,11 +7,11 @@ class Provider < ActiveRecord::Base
   validates :years_practiced, numericality: {only_integer: true, less_than_or_equal_to: 1, less_than_or_equal_to: 100}
   
   def age
-    self.birthday = Date.today - @age.to_i  
+    self.birthdate = Date.today - @age.to_i
   end
   
-  def age_per_birthday
-    self.birthday ? (Date.today - self.birthday).round : 0
+  def age_per_birthdate
+    self.birthdate ? (Date.today - self.birthdate).round : 0
   end  
 
 end

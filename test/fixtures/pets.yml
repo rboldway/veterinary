@@ -4,12 +4,12 @@ one:
   name: MyString
   pet_type: 
   breed: MyString
-  birthday: 2016-01-26
+  birthdate: 2016-01-26
   weight: MyString
 
 two:
   name: MyString
   pet_type: 
   breed: MyString
-  birthday: 2016-01-26
+  birthdate: 2016-01-26
   weight: MyString
